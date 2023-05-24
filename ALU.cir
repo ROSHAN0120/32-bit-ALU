@@ -1,0 +1,70 @@
+* D:\eSim_tut\files\ALU\ALU.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 05/24/23 19:22:19
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U6  A A A A A A A A Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ Net-_U1-Pad5_ Net-_U1-Pad6_ Net-_U1-Pad7_ Net-_U1-Pad8_ adc_bridge_8		
+U7  A A A A A A A A Net-_U1-Pad9_ Net-_U1-Pad10_ Net-_U1-Pad11_ Net-_U1-Pad12_ Net-_U1-Pad13_ Net-_U1-Pad14_ Net-_U1-Pad15_ Net-_U1-Pad16_ adc_bridge_8		
+U5  Net-_U5-Pad1_ Net-_U5-Pad2_ Net-_U5-Pad3_ Net-_U5-Pad4_ Net-_U1-Pad65_ Net-_U1-Pad66_ Net-_U1-Pad67_ Net-_U1-Pad68_ adc_bridge_4		
+U14  Net-_U1-Pad69_ Net-_U1-Pad70_ Net-_U1-Pad71_ Net-_U1-Pad72_ Net-_U1-Pad73_ Net-_U1-Pad74_ Net-_U1-Pad75_ Net-_U1-Pad76_ o1 o2 o3 o4 o5 o6 o7 o8 dac_bridge_8		
+U15  Net-_U1-Pad77_ Net-_U1-Pad78_ Net-_U1-Pad79_ Net-_U1-Pad80_ Net-_U1-Pad81_ Net-_U1-Pad82_ Net-_U1-Pad83_ Net-_U1-Pad84_ o9 o10 o11 o12 o13 o14 o15 o16 dac_bridge_8		
+U16  Net-_U1-Pad85_ Net-_U1-Pad86_ Net-_U1-Pad87_ Net-_U1-Pad88_ Net-_U1-Pad89_ Net-_U1-Pad90_ Net-_U1-Pad91_ Net-_U1-Pad92_ o17 o18 o19 o20 o21 o22 o23 o24 dac_bridge_8		
+U17  Net-_U1-Pad93_ Net-_U1-Pad94_ Net-_U1-Pad95_ Net-_U1-Pad96_ Net-_U1-Pad97_ Net-_U1-Pad98_ Net-_U1-Pad99_ Net-_U1-Pad100_ o25 o26 o27 o28 29 o30 o31 o32 dac_bridge_8		
+U18  Net-_U1-Pad101_ over dac_bridge_1		
+U8  B B B B B B B B Net-_U1-Pad17_ Net-_U1-Pad18_ Net-_U1-Pad19_ Net-_U1-Pad20_ Net-_U1-Pad21_ Net-_U1-Pad22_ Net-_U1-Pad23_ Net-_U1-Pad24_ adc_bridge_8		
+U9  B B B B B B B B Net-_U1-Pad25_ Net-_U1-Pad26_ Net-_U1-Pad27_ Net-_U1-Pad28_ Net-_U1-Pad29_ Net-_U1-Pad30_ Net-_U1-Pad31_ Net-_U1-Pad32_ adc_bridge_8		
+U10  C C C C C C C C Net-_U1-Pad33_ Net-_U1-Pad34_ Net-_U1-Pad35_ Net-_U1-Pad36_ Net-_U1-Pad37_ Net-_U1-Pad38_ Net-_U1-Pad39_ Net-_U1-Pad40_ adc_bridge_8		
+U11  C C C C C C C C Net-_U1-Pad41_ Net-_U1-Pad42_ Net-_U1-Pad43_ Net-_U1-Pad44_ Net-_U1-Pad45_ Net-_U1-Pad46_ Net-_U1-Pad47_ Net-_U1-Pad48_ adc_bridge_8		
+U12  D D D D D D D D Net-_U1-Pad49_ Net-_U1-Pad50_ Net-_U1-Pad51_ Net-_U1-Pad52_ Net-_U1-Pad53_ Net-_U1-Pad54_ Net-_U1-Pad55_ Net-_U1-Pad56_ adc_bridge_8		
+U13  D D D D D D D D Net-_U1-Pad57_ Net-_U1-Pad58_ Net-_U1-Pad59_ Net-_U1-Pad60_ Net-_U1-Pad61_ Net-_U1-Pad62_ Net-_U1-Pad63_ Net-_U1-Pad64_ adc_bridge_8		
+v5  A GND pulse		
+v6  B GND pulse		
+v7  C GND pulse		
+v8  D GND pulse		
+v1  Net-_U5-Pad1_ GND pulse		
+v2  Net-_U5-Pad2_ GND pulse		
+v3  Net-_U5-Pad3_ GND pulse		
+v4  Net-_U5-Pad4_ GND pulse		
+U1.1  A plot_v1		
+U2  B plot_v1		
+U3  C plot_v1		
+U4  D plot_v1		
+U19  o1 plot_v1		
+U20  o2 plot_v1		
+U21  o3 plot_v1		
+U22  o4 plot_v1		
+U23  o5 plot_v1		
+U24  o6 plot_v1		
+U25  o7 plot_v1		
+U26  o8 plot_v1		
+U27  o9 plot_v1		
+U28  o10 plot_v1		
+U29  o11 plot_v1		
+U30  o12 plot_v1		
+U31  o13 plot_v1		
+U32  o14 plot_v1		
+U33  o15 plot_v1		
+U34  o16 plot_v1		
+U35  o17 plot_v1		
+U36  o18 plot_v1		
+U37  o19 plot_v1		
+U38  o20 plot_v1		
+U39  o21 plot_v1		
+U40  o22 plot_v1		
+U41  o23 plot_v1		
+U42  o24 plot_v1		
+U43  o25 plot_v1		
+U44  o26 plot_v1		
+U45  o27 plot_v1		
+U46  o28 plot_v1		
+U47  29 plot_v1		
+U48  o30 plot_v1		
+U49  o31 plot_v1		
+U50  o32 plot_v1		
+U51  over plot_v1		
+U1  Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ Net-_U1-Pad5_ Net-_U1-Pad6_ Net-_U1-Pad7_ Net-_U1-Pad8_ Net-_U1-Pad9_ Net-_U1-Pad10_ Net-_U1-Pad11_ Net-_U1-Pad12_ Net-_U1-Pad13_ Net-_U1-Pad14_ Net-_U1-Pad15_ Net-_U1-Pad16_ Net-_U1-Pad17_ Net-_U1-Pad18_ Net-_U1-Pad19_ Net-_U1-Pad20_ Net-_U1-Pad21_ Net-_U1-Pad22_ Net-_U1-Pad23_ Net-_U1-Pad24_ Net-_U1-Pad25_ Net-_U1-Pad26_ Net-_U1-Pad27_ Net-_U1-Pad28_ Net-_U1-Pad29_ Net-_U1-Pad30_ Net-_U1-Pad31_ Net-_U1-Pad32_ Net-_U1-Pad33_ Net-_U1-Pad34_ Net-_U1-Pad35_ Net-_U1-Pad36_ Net-_U1-Pad37_ Net-_U1-Pad38_ Net-_U1-Pad39_ Net-_U1-Pad40_ Net-_U1-Pad41_ Net-_U1-Pad42_ Net-_U1-Pad43_ Net-_U1-Pad44_ Net-_U1-Pad45_ Net-_U1-Pad46_ Net-_U1-Pad47_ Net-_U1-Pad48_ Net-_U1-Pad49_ Net-_U1-Pad50_ Net-_U1-Pad51_ Net-_U1-Pad52_ Net-_U1-Pad53_ Net-_U1-Pad54_ Net-_U1-Pad55_ Net-_U1-Pad56_ Net-_U1-Pad57_ Net-_U1-Pad58_ Net-_U1-Pad59_ Net-_U1-Pad60_ Net-_U1-Pad61_ Net-_U1-Pad62_ Net-_U1-Pad63_ Net-_U1-Pad64_ Net-_U1-Pad65_ Net-_U1-Pad66_ Net-_U1-Pad67_ Net-_U1-Pad68_ Net-_U1-Pad69_ Net-_U1-Pad70_ Net-_U1-Pad71_ Net-_U1-Pad72_ Net-_U1-Pad73_ Net-_U1-Pad74_ Net-_U1-Pad75_ Net-_U1-Pad76_ Net-_U1-Pad77_ Net-_U1-Pad78_ Net-_U1-Pad79_ Net-_U1-Pad80_ Net-_U1-Pad81_ Net-_U1-Pad82_ Net-_U1-Pad83_ Net-_U1-Pad84_ Net-_U1-Pad85_ Net-_U1-Pad86_ Net-_U1-Pad87_ Net-_U1-Pad88_ Net-_U1-Pad89_ Net-_U1-Pad90_ Net-_U1-Pad91_ Net-_U1-Pad92_ Net-_U1-Pad93_ Net-_U1-Pad94_ Net-_U1-Pad95_ Net-_U1-Pad96_ Net-_U1-Pad97_ Net-_U1-Pad98_ Net-_U1-Pad99_ Net-_U1-Pad100_ Net-_U1-Pad101_ alu1		
+
+.end
